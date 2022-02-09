@@ -5,10 +5,13 @@ body{
 h1{ 
     font-size: 50px;
 }
+h2{
+    font-size: 33px;
+}
 .inferior{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -40,4 +43,33 @@ section{
 }
 p{
     text-align: justify;
+}
+.box-shadow{
+    box-shadow: 10px 10px 80px gray;
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 2%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+}
+.Third-section{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#experience-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,purple);
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;
 }
